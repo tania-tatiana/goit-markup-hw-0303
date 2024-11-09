@@ -142,6 +142,7 @@ img {
   margin-bottom: 48px;
 }
 .hero-button {
+  display: block;
   font-family: inherit;
   background-color: #4d5ae5;
   font-weight: 500;
@@ -153,7 +154,6 @@ img {
   border-radius: 4px;
   padding: 16px 32px;
   min-width: 169px;
-  display: block;
   border: none;
   display: flex;
   margin-right: auto;
@@ -162,6 +162,7 @@ img {
 .hero-button:hover,
 .hero-button:focus {
   background: #404bbf;
+  display: block;
 }
 /* #endregion */
 /* #region Features */
@@ -169,7 +170,6 @@ img {
   padding: 120px 0;
 }
 .features-title {
-  margin-bottom: 8px;
 }
 .features-list {
   display: flex;
@@ -189,6 +189,7 @@ img {
   line-height: 1.2;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .features-text {
   font-size: 16px;
@@ -207,10 +208,9 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 32px 16px;
+  padding: 32px 0;
 }
 .container-team {
-  padding: 32px 0;
 }
 .team-title {
   font-weight: 700;
@@ -230,6 +230,7 @@ img {
 .team-item {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 .team-img {
 }
@@ -260,6 +261,7 @@ img {
   gap: 8px;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-title {
   font-weight: 700;
@@ -307,12 +309,12 @@ img {
   padding: 100px 0;
 }
 .footer-logo {
+  display: inline-block;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
   gap: 0px;
-  display: inline-block;
   margin-bottom: 16px;
 }
 .light {
