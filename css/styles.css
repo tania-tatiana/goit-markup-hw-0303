@@ -326,7 +326,6 @@ img {
   max-width: 264px;
 }
 .footer-container {
-  display: flex;
   flex-direction: column;
 }
 
