@@ -78,6 +78,7 @@ img {
   margin-right: 76px;
 }
 .logo {
+  display: inline-block;
   font-family: 'Raleway', sans-serif;
   color: #4d5ae5;
   font-weight: 700;
@@ -155,14 +156,12 @@ img {
   padding: 16px 32px;
   min-width: 169px;
   border: none;
-  display: flex;
   margin-right: auto;
   margin-left: auto;
 }
 .hero-button:hover,
 .hero-button:focus {
   background: #404bbf;
-  display: block;
 }
 /* #endregion */
 /* #region Features */
@@ -310,7 +309,6 @@ img {
 }
 .footer-logo {
   display: inline-block;
-  display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
